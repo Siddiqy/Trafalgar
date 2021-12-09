@@ -121,6 +121,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #7D7987;
 }
 
+.providers-section {
+    position: relative;
+}
+
+.providers-section::after {
+    position: absolute;
+    content: url('../images/element.png');
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    margin-bottom: -20px;
+}
+
 .logo-img {
     vertical-align: middle;
     height: 100%;
