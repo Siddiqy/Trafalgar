@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+@import url(bootstrap.min.css);
+@import url(owl.carousel.min.css);
+@import url(common.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+.hero-section {
+    position: relative;
+    padding: 40px;
+}
+
+.hero-section::after {
+    position: absolute;
+    content: url('../images/element.png');
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.hero-content p {
+    font-size: 21px;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-right: 30px;
+    color: #7D7987;
+}
+
+.hero-btn {
+    border-style: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 25px;
+    padding: 10px 40px;
+    border-radius: 55px;
+    color: #fff;
+    background-color: #458FF6;
+}
+
+.services-section {
+    position: relative;
+}
+
+.services-section::before {
+    position: absolute;
+    content: url('../images/poligon-1.png');
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    padding-top: 50px;
+}
+
+.services {
+    position: relative;
+}
+
+.services::before {
+    position: absolute;
+    content: url('../images/element.png');
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.services-card {
+    padding: 20px;
+    overflow: auto;
+}
+
+.services-item {
+    height: 350px;
+    width: 100%;
+    box-shadow: 0px 0px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.services-item img {
+    height: 80px;
+    width: auto;
+    margin-top: 15px;
+}
+
+.services-item h4 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.services-item p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.7;
+    color: #7D7987;
+}
+
+.logo-img {
+    vertical-align: middle;
+    height: 100%;
+}
+
+.logo-img img {
+    max-width: 150px;
+    max-height: 80px;
+    margin: 0 auto;
+}
