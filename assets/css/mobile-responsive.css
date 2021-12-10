@@ -17,8 +17,8 @@
     }
 
     .footer-bg {
-        margin-top: 80px;
-    }    
+        margin-top: 60px;
+    }
 
     .footer-main span {
         display: none;
@@ -46,13 +46,12 @@
     }
 
     input { display: none; }
-
     .menu { display: none; }
 
     .menu a {
         text-decoration: none;
         padding-top: 10px;
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding-left: 15px;
         color: #000;
     }
@@ -85,9 +84,21 @@
         padding-left: 15px;
     }
 
+    .hero-content p {
+        padding-right: 0px;
+    }
+
+    .services { padding: 5px; }
+    .services-card { 
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #imageDiv { order: 1; }
+    #contentDiv { order: 2; }
+
     .testimonial-content {
-        position: relative;
-        padding: 30px 30px 35px; 
+        padding: 40px 30px 40px; 
     }
 
     .testimonial-des h5 {
@@ -96,20 +107,23 @@
         padding-left: 0px;
     }
 
-    .testimonial-des p { 
-        text-align: center;
+    .testimonial-des span { 
+        display: block;
+        padding-top: 5px;
         padding-left: 0px;
+        text-align: center;
     }
 
-    .testimonial-des p { padding-top: 10px; }
+    .testimonial-des p { 
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+
+    .article-content img { padding: 0px; }
+
+    .article { padding: 5px;}
+    .article-card {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
-
-
-
-@media only screen and (min-width: 992px) { 
-
- }
-
-@media only screen and (min-width: 1200px) { 
-
- }

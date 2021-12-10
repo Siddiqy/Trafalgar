@@ -1,10 +1,9 @@
-@media only screen and (max-width: 768px) { 
+@media only screen and (min-width: 1400px) { 
 
-    /*---------------Common CSS-----------------*/
-    * { font-size: 15px; }
+    * { font-size: 18px; }
 
     .section-padding {
-        padding: 50px 0px;
+        padding: 60px 0px;
     }
     
     .padding-top {
@@ -12,11 +11,11 @@
     }
     
     .footer {
-        padding: 50px 20px;
+        padding: 60px 20px;
     }
 
     .footer-bg {
-        margin-top: 80px;
+        margin-top: 100px;
     }    
 
     .footer-main span {
@@ -32,7 +31,7 @@
     .main-menu { display: none; }
 
     .mobile-menu {
-        padding: 20px 20px 0px;
+        padding: 15px 15px 0px;
         display: block;
     }
 
@@ -50,14 +49,14 @@
 
     .menu a {
         text-decoration: none;
-        padding-top: 15px;
-        font-size: 1.1rem;
-        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 1rem;
+        padding-left: 15px;
         color: #000;
     }
 
     .mobile-menu a img {
-        height: 60px;
+        height: 50px;
         width: auto;
     }
 
@@ -88,18 +87,15 @@
         padding-right: 0px;
     }
 
-    .services { padding: 8px; }
+    .services { padding: 5px; }
     .services-card { 
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-
-    #imageDiv { order: 1; }
-    #contentDiv { order: 2; }
 
     .testimonial-content {
         position: relative;
-        padding: 50px 30px 50px; 
+        padding: 45px 45px 52px; 
     }
 
     .testimonial-des h5 {
@@ -110,15 +106,15 @@
 
     .testimonial-des span { 
         display: block;
-        padding-top: 8px;
+        padding-top: 5px;
         padding-left: 0px;
         text-align: center;
     }
 
-    .testimonial-des p { padding-top: 25px; }
+    .testimonial-des p { padding-top: 15px; }
     .article-content img { padding: 0px; }
 
-    .article { padding: 8px;}
+    .article { padding: 5px;}
     .article-card {
         padding-top: 10px;
         padding-bottom: 10px;
