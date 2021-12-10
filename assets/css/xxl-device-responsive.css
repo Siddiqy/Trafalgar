@@ -2,121 +2,20 @@
 
     * { font-size: 18px; }
 
-    .section-padding {
-        padding: 60px 0px;
-    }
+    .section-padding { padding: 90px 0px; }
     
-    .padding-top {
-        padding-top: 45px;
-    }
+    .padding-top { padding-top: 70px; }
     
-    .footer {
-        padding: 60px 20px;
-    }
+    .footer { padding: 70px 0px; }
 
-    .footer-bg {
-        margin-top: 100px;
-    }    
+    .footer-bg { margin-top: 120px; }    
 
-    .footer-main span {
-        display: none;
-    }
+    .footer-main span { display: block; }
 
-    .mobile-copyright {
-        display: block;
-    }
+    .mobile-copyright { display: none; }
 
     /*---------------Main CSS-------------------*/
 
-    .main-menu { display: none; }
-
-    .mobile-menu {
-        padding: 15px 15px 0px;
-        display: block;
-    }
-
-    .mobile-menu a { float: left; }
-
-    label {
-        float: right;
-        font-size: 2rem;
-        cursor: pointer;
-    }
-
-    input { display: none; }
-
-    .menu { display: none; }
-
-    .menu a {
-        text-decoration: none;
-        padding-top: 10px;
-        font-size: 1rem;
-        padding-left: 15px;
-        color: #000;
-    }
-
-    .mobile-menu a img {
-        height: 50px;
-        width: auto;
-    }
-
-    #toggle:checked + .menu {
-        display: block;
-    }
-
-    .hero-section::after,
-    .services-section::before,
-    .services::before,
-    .providers-section::after,
-    .testimonial-content::after,
-    .testimonial-content::before,
-    .article-section::before,
-    .article::before,
-    .footer-bg::after,
-    .footer-bg::before 
-    {
-        position: absolute;
-        content: none;
-    }
-
-    .hero-content {
-        padding-left: 20px;
-    }
-
-    .hero-content p {
-        padding-right: 0px;
-    }
-
-    .services { padding: 5px; }
-    .services-card { 
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .testimonial-content {
-        position: relative;
-        padding: 45px 45px 52px; 
-    }
-
-    .testimonial-des h5 {
-        padding-top: 30px;
-        text-align: center;
-        padding-left: 0px;
-    }
-
-    .testimonial-des span { 
-        display: block;
-        padding-top: 5px;
-        padding-left: 0px;
-        text-align: center;
-    }
-
-    .testimonial-des p { padding-top: 15px; }
-    .article-content img { padding: 0px; }
-
-    .article { padding: 5px;}
-    .article-card {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+    .main-menu { display: block; }
+    .mobile-menu { display: none; }
 }

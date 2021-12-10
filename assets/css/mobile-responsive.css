@@ -4,29 +4,17 @@
     /*---------------Common CSS-----------------*/
     * { font-size: 13px; }
 
-    .section-padding {
-        padding: 40px 0px;
-    }
+    .section-padding { padding: 40px 0px; }
     
-    .padding-top {
-        padding-top: 30px;
-    }
+    .padding-top { padding-top: 30px; }
     
-    .footer {
-        padding: 40px 15px;
-    }
+    .footer { padding: 40px 15px; }
 
-    .footer-bg {
-        margin-top: 60px;
-    }
+    .footer-bg { margin-top: 60px; }
 
-    .footer-main span {
-        display: none;
-    }
+    .footer-main span { display: none; }
 
-    .mobile-copyright {
-        display: block;
-    }
+    .mobile-copyright { display: block; }
 
     /*---------------Main CSS-------------------*/
 
@@ -46,6 +34,7 @@
     }
 
     input { display: none; }
+    
     .menu { display: none; }
 
     .menu a {
