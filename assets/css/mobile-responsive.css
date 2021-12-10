@@ -1,0 +1,115 @@
+
+@media only screen and (max-width: 576px) { 
+
+    /*---------------Common CSS-----------------*/
+    * { font-size: 13px; }
+
+    .section-padding {
+        padding: 40px 0px;
+    }
+    
+    .padding-top {
+        padding-top: 30px;
+    }
+    
+    .footer {
+        padding: 40px 15px;
+    }
+
+    .footer-bg {
+        margin-top: 80px;
+    }    
+
+    .footer-main span {
+        display: none;
+    }
+
+    .mobile-copyright {
+        display: block;
+    }
+
+    /*---------------Main CSS-------------------*/
+
+    .main-menu { display: none; }
+
+    .mobile-menu {
+        padding: 15px 15px 0px;
+        display: block;
+    }
+
+    .mobile-menu a { float: left; }
+
+    label {
+        float: right;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    input { display: none; }
+
+    .menu { display: none; }
+
+    .menu a {
+        text-decoration: none;
+        padding-top: 10px;
+        font-size: 1rem;
+        padding-left: 15px;
+        color: #000;
+    }
+
+    .mobile-menu a img {
+        height: 50px;
+        width: auto;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    .hero-section::after,
+    .services-section::before,
+    .services::before,
+    .providers-section::after,
+    .testimonial-content::after,
+    .testimonial-content::before,
+    .article-section::before,
+    .article::before,
+    .footer-bg::after,
+    .footer-bg::before 
+    {
+        position: absolute;
+        content: none;
+    }
+
+    .hero-content {
+        padding-left: 15px;
+    }
+
+    .testimonial-content {
+        position: relative;
+        padding: 30px 30px 35px; 
+    }
+
+    .testimonial-des h5 {
+        padding-top: 20px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .testimonial-des p { 
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .testimonial-des p { padding-top: 10px; }
+}
+
+
+
+@media only screen and (min-width: 992px) { 
+
+ }
+
+@media only screen and (min-width: 1200px) { 
+
+ }
